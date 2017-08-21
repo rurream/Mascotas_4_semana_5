@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.creative_it_spa.mascotas_2.RecibirNotificaciones"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/barra_sup"
+        layout="@layout/barra" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Recibir_Notificaciones"
+            android:textSize="@dimen/titulo_notificaciones"
+            android:textColor="@color/negro"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margen_sup_noticaciones"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_notificaciones"
+            android:text="@string/bt_notificaciones"
+            android:layout_marginTop="@dimen/bt_notificacion_top"
+            android:layout_gravity="center_horizontal"
+            android:onClick="recibirNotificacion"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

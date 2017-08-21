@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="elev_barra">4dp</dimen>
+    <dimen name="titulo_app_30sp">30sp</dimen>
+    <dimen name="cv_mascotas_margin_bottom">16dp</dimen>
+    <dimen name="cv_mascotas_top_margin_bottom">16dp</dimen>
+    <dimen name="cv_mascotas_margin_top">10dp</dimen>
+    <dimen name="cv_mascotas_top_margin_top">10dp</dimen>
+    <dimen name="foto_mascota_height">200dp</dimen>
+    <dimen name="foto_mascota_top_heigh">200dp</dimen>
+    <dimen name="foto_mascota_top_wide">300dp</dimen>
+    <dimen name="rl_marjen_top">10dp</dimen>
+    <dimen name="hueso">50dp</dimen>
+    <dimen name="tv_nombre_left">10dp</dimen>
+    <dimen name="tv_nombre_size_texto">20sp</dimen>
+    <dimen name="tv_ptos_right">10dp</dimen>
+    <dimen name="tv_ptos_size_texto">20sp</dimen>
+    <dimen name="titulo_notificaciones">25sp</dimen>
+    <dimen name="margen_sup_noticaciones">30dp</dimen>
+    <dimen name="bt_notificacion_top">100dp</dimen>
+
+</resources>

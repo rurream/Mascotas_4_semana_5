@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_Mascotas_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/cv_mascotas_top_margin_bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/cv_mascotas_top_margin_top">
+
+        <ImageView
+            android:id="@+id/img_foto_mascota_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/foto_mascota_top_heigh"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/default_dog" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/cv_mascotas_top_margin_top">
+
+
+            <ImageView
+                android:id="@+id/img_hueso_blanco_top"
+                android:layout_width="@dimen/hueso"
+                android:layout_height="@dimen/hueso"
+                android:layout_centerVertical="true"
+                android:padding="0dp"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_nombre_mascota_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/img_hueso_blanco_top"
+                android:paddingLeft="@dimen/tv_nombre_left"
+                android:text="@string/nombre_mascota"
+                android:textSize="@dimen/tv_nombre_size_texto" />
+
+
+            <ImageView
+                android:id="@+id/img_hueso_color_top"
+                android:layout_width="@dimen/hueso"
+                android:layout_height="@dimen/hueso"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/hueso_color" />
+
+
+            <TextView
+                android:id="@+id/tv_puntos_mascota_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/img_hueso_color_top"
+                android:paddingRight="@dimen/tv_nombre_left"
+                android:text="@string/puntos_mascota"
+                android:textSize="@dimen/tv_nombre_size_texto" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

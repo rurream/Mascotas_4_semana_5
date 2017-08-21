@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mascotas_4</string>
+    <string name="nombre_mascota">Perrito</string>
+    <string name="puntos_mascota">5</string>
+
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_Acerca_de">Acerca de ...</string>
+    <string name="menu_configurar_cuenta">Configurar cuenta</string>
+    <string name="hint_cuenta_usuario"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Enviar_Notificación">Enviar Notificación</string>
+    <string name="Recibir_Notificaciones">Recibir Notificaciones</string>
+    <string name="bt_notificaciones">Recibir Notificación</string>
+    <string name="menu_recibir_notificaciones">Recibir Notificaciones</string>
+    <string name="texto_accion_toque_animal1">Llamar App, Mascotas</string>
+    <string name="texto_accion_toque_animal2">Dar Follow/Unfollow </string>
+    <string name="texto_accion_toque_animal3">Ver Usuario</string>
+</resources>

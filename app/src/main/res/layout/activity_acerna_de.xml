@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.creative_it_spa.mascotas_2.AcernaDe">
+
+    <include
+        android:id="@+id/barra_sup"
+        layout="@layout/barra" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="60dp">
+
+
+        <TextView
+            android:id="@+id/tv_acerca_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Datos del Desarrollador"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:id="@+id/row1"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre: "
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_nombre_desarrollador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Rodrigo Urrea Méndez"
+                    android:textSize="20sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row2"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Empresa: "
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_empresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Creative IT Spa"
+                    android:textSize="20sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row3"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Correo: "
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_mail_desarollador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rurream@gmail.com"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
